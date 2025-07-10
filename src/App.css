@@ -1,0 +1,26 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #0d1117;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+.ant-input::placeholder,
+.ant-input-affix-wrapper input::placeholder {
+  color: #8b949e !important;
+  opacity: 1;
+}
+
+.pixel-art-canvas .ant-card-body {
+  padding: 24px;
+}
+
+.pixel-art-canvas {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
