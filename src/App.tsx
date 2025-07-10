@@ -20,7 +20,7 @@ function App() {
         }
       }}
     >
-      <WebSocketProvider url="ws://localhost:8080/ws">
+      <WebSocketProvider url={import.meta.env.VITE_WS_URL}>
         <Layout style={{ 
           minHeight: '100vh', 
           padding: '20px',
