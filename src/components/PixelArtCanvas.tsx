@@ -14,7 +14,7 @@ const DEFAULT_COLORS = [
 
 export const PixelArtCanvas: React.FC = () => {
   const { canvas, connectedUsers, isConnected, sendPixelUpdate, clearCanvas } = useWebSocketContext();
-  const [selectedColor, setSelectedColor] = useState('#000000');
+  const [selectedColor, setSelectedColor] = useState('#FFFFFF');
 
   const handlePixelClick = (x: number, y: number) => {
     if (isConnected) {
