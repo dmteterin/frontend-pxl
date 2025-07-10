@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background: A dark, rounded square for a modern app icon feel. -->
+    <rect width="256" height="256" rx="48" fill="#1A1A1A"/>
+
+    <!-- Letter P: Uses a vibrant blue. Constructed from three rectangles to create a clear, blocky 'P'. -->
+    <g id="letter-p" fill="#00A9FF">
+        <rect x="52" y="84" width="28" height="88"/>
+        <rect x="80" y="84" width="44" height="28"/>
+        <rect x="80" y="112" width="44" height="28"/>
+    </g>
+
+    <!-- Letter X: Uses a striking pink. Built from five squares to form a classic, unambiguous pixel-art 'X'. -->
+    <g id="letter-x" fill="#FF4F8B">
+        <rect x="136" y="84" width="24" height="24"/>
+        <rect x="184" y="84" width="24" height="24"/>
+        <rect x="160" y="108" width="24" height="24"/>
+        <rect x="136" y="132" width="24" height="24"/>
+        <rect x="184" y="132" width="24" height="24"/>
+    </g>
+
+    <!-- Letter L: Uses a bright green. Formed by two simple rectangles for a clean 'L' shape. -->
+    <g id="letter-l" fill="#A0E85B">
+        <rect x="52" y="188" width="136" height="24"/>
+        <rect x="188" y="160" width="24" height="52"/>
+    </g>
+</svg>
