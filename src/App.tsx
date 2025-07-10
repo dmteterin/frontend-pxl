@@ -33,7 +33,7 @@ function App() {
                 color: '#e6edf3',
                 marginBottom: '40px'
               }}>
-                Collaborative Pixel Art
+                pxl
               </Title>
               
               <div style={{ display: 'flex', justifyContent: 'center' }}>

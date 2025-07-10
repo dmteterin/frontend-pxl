@@ -45,7 +45,7 @@ export const PixelArtCanvas: React.FC = () => {
           </Title>
           <Space>
             <Text style={{ color: '#8b949e' }}>
-              <UserOutlined /> {connectedUsers.size} user{connectedUsers.size !== 1 ? 's' : ''} online
+              <UserOutlined /> {connectedUsers.size}
             </Text>
             <Button
               type="primary"
@@ -58,7 +58,6 @@ export const PixelArtCanvas: React.FC = () => {
                 borderColor: '#da3633'
               }}
             >
-              Clear Canvas
             </Button>
           </Space>
         </div>
